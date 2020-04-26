@@ -1,0 +1,237 @@
+@font-face {
+    font-family: 'Myriad Pro';
+    src: url('fonts/MyriadPro-Regular.eot');
+    src: url('fonts/MyriadPro-Regular.eot?#iefix') format('embedded-opentype'),
+        url('fonts/MyriadPro-Regular.woff2') format('woff2'),
+        url('fonts/MyriadPro-Regular.woff') format('woff'),
+        url('fonts/MyriadPro-Regular.ttf') format('truetype'),
+        url('fonts/MyriadPro-Regular.svg#MyriadPro-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+body {
+    font-family: "Myriad Pro";
+    font-weight: 400;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    max-width: 973px;
+    margin: 0 auto;
+}
+
+.clearfix {
+    clear: both;
+}
+
+.header {
+    background-color: #fff;
+}
+
+.logo_container {
+    display: inline-block;
+    margin-top: 24px;
+}
+
+.nav {
+    display: inline-block;
+    float: right;
+}
+
+.nav_list {
+    font-size: 0;
+}
+
+.nav_item {
+    display: inline-block;
+}
+
+.nav_link {
+    display: inline-block;
+    color: #6c6c6c;
+    font-size: 20px;
+    letter-spacing: 0.2px;
+    margin-right: 25px;
+    padding: 35px 0 32px;
+    border-bottom: 3px solid transparent;
+}
+
+.nav_item:last-child .nav_link {
+    margin-right: 0;
+}
+
+.nav_link:hover{
+    border-bottom-color: #5094f2;
+}
+
+.main {
+    background-image: url(images/bg_img.png);
+    height: 488px;
+    background-repeat: no-repeat;
+    left: auto;
+    right: auto;
+    background-position: center top;
+    top: -74px;
+}
+
+.iphone {
+    margin-top: 38px;
+    margin-left: 36px;
+    display: inline-block;
+}
+
+.sign_up {
+    display: inline-block;
+    position: relative;
+    float: right;
+    top: 153px;
+    /* left: 485px; */
+    color: #ffffff;
+    font-family: "Myriad Pro";
+    font-weight: 400;
+    line-height: 44.42px;
+}
+
+.sign_up_but {
+    padding-top: 36px;
+    margin-left: 12px;
+}
+
+.title_iphone {
+    font-size: 42px;
+}
+
+.text_iphone {
+    font-size: 26px;
+}
+
+.card_icon {
+    width: 186px;
+    height: 186px;
+    border-radius: 100px;
+    margin: 0 auto;
+    background-position:  center;
+    background-repeat: no-repeat;
+  }
+
+  .card {
+    margin-top: 57px;
+    display: inline-block;
+    text-align: center;
+    width: 33%;
+  }
+
+  .first {
+    background-color: #5094f2;
+    background-image: url(images/first.png);
+    background-repeat: no-repeat;
+  }
+
+  .card.second {
+    
+    margin-left: 100px;
+    margin-right: 100px;
+  }
+
+  .second {
+    background-color: #d94748;
+    background-image: url(images/second.png);
+    background-repeat: no-repeat;
+  }
+
+  .third {
+    background-color: #ebbb11;
+    background-image: url(images/third.png);
+    background-repeat: no-repeat;
+  }
+
+  .text {
+    font-family: "Myriad Pro";
+    font-weight: 400;
+  }
+
+  .card_title {
+    color: #5094f2;
+    font-family: "Myriad Pro";
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 44.42px;
+  }
+
+  .card_description {
+    color: #909090;
+    font-family: "Myriad Pro";
+    font-size: 14px;
+    font-weight: 400;
+    max-width: 248px;
+    margin: 0 auto;
+  }
+
+  .title {
+    margin-top: 94px;
+    width: 323px;
+    height: 39px;
+    color: #6f7173;
+    font-family: "Myriad Pro";
+    font-size: 42px;
+    font-weight: 400;
+    line-height: 44.42px;
+  }
+
+  .basket {
+    display: inline-block;
+    vertical-align: top;
+  }
+
+  .shopping_basket {
+    width: 371px;
+    height: 279px;
+    background-image: url(images/cart.png);
+    margin-top: 35px;
+  }
+
+  .discription_basket {
+    margin-left: 82px;
+  }
+
+  .title_basket {
+    color: #6f7173;
+    font-family: "Myriad Pro";
+    font-size: 26px;
+    font-weight: 400;
+  }
+
+  .discription {
+    margin-top: 36px;
+    color: #909090;
+    font-family: "Myriad Pro";
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 36px;
+  }
+
+  .basket {
+    margin-bottom: 50px;
+  }
+
+  /* .hr {
+    color: #e5e5e5;
+  } */
+
+  .foot {
+    padding-top: 34px;
+    padding-bottom: 45px;
+    margin-left: auto;
+    margin-right: auto;
+    vertical-align: center;
+    color: #909090;
+    font-family: "Myriad Pro";
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 36px;
+  }
